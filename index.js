@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.send('Backend online 🚀')
 })
 
-// health check (IMPORTANTE pro emergent)
+// health check
 app.get('/health', (req, res) => {
   res.json({ status: 'ok' })
 })
